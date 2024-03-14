@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y \
     build-essential \
     software-properties-common \
     git \
-    netcat
+    netcat-traditional
 
 USER appuser
 WORKDIR /home/appuser
